@@ -1,0 +1,24 @@
+﻿@model AFJOB_WEB.Models.ViewModels.InterviewViewModel
+
+<div class="container mt-4">
+    <h2 class="mb-3">Interview Details for @Model.CandidateName</h2>
+
+    <div class="mb-3">
+        <strong>Candidate Name:</strong> @Model.CandidateName
+    </div>
+    <div class="mb-3">
+        <strong>Candidate Email:</strong> @Model.CandidateEmail
+    </div>
+  
+    <div class="mb-3">
+        <strong>Interview Date:</strong> @Model.InterviewDate.ToString("g")
+    </div>
+    <div class="mb-3">
+        <strong>Interview Type:</strong> @Model.InterviewType
+    </div>
+    <div class="mb-3">
+        <strong>Notes:</strong> @Model.Notes
+    </div>
+
+    <a href="@Url.Action("Index", "Interview")" class="btn btn-secondary">Back to Interviews</a>
+</div>

@@ -1,99 +1,135 @@
-﻿using AFJOB_WEB.Models;
-using AFJOB_WEB.Models.ViewModels;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using AFJOB_WEB.Models;
+using AFJOB_WEB.Models.ViewModels;
 using System;
-using System.Linq;
+using System.Threading.Tasks;
 
 namespace AFJOB_WEB.Controllers
 {
     public class UserController : Controller
     {
-        private readonly AfjobWebContext _context;
+        private readonly UserManager<User> _userManager;
+        private readonly SignInManager<User> _signInManager;
 
-        public UserController(AfjobWebContext context)
+        public UserController(UserManager<User> userManager, SignInManager<User> signInManager)
         {
-            _context = context;
+            _userManager = userManager;
+            _signInManager = signInManager;
         }
 
-        // GET: User/Register
+        // GET: Register
+        [HttpGet]
         public IActionResult Register()
         {
             return View();
         }
 
-        // POST: User/Register
+        // POST: Register
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Register(UserRegisterViewModel model)
+        public async Task<IActionResult> Register(UserRegisterViewModel model)
         {
+            Console.WriteLine("POST Register hit");
+
             if (!ModelState.IsValid)
             {
-                return View(model); // Return view with errors
-            }
-
-            // Check if the email is already in use
-            if (_context.Users.Any(u => u.Email == model.Email))
-            {
-                ModelState.AddModelError("Email", "This email is already registered.");
+                Console.WriteLine("Invalid ModelState");
+                // This will be returned if validation fails.
                 return View(model);
             }
 
-            // Hash password
-            var passwordHasher = new PasswordHasher<User>();
-            string hashedPassword = passwordHasher.HashPassword(null, model.Password);
-
-            // Create user object
-            var newUser = new User
+            var user = new User
             {
+                UserName = model.Email,
+                Email = model.Email,
                 FirstName = model.FirstName,
                 LastName = model.LastName,
-                Email = model.Email,
-                PasswordHash = hashedPassword,
-                RoleId = model.RoleId,
-                CreatedAt = DateTime.UtcNow
+                RoleID = model.RoleId,
+                CreatedAt = DateTime.Now
             };
 
-            // Save to database
-            _context.Users.Add(newUser);
-            _context.SaveChanges();
+            var result = await _userManager.CreateAsync(user, model.Password);
 
-            // Redirect based on role
-            return model.RoleId == 1 ? RedirectToAction("Index", "JobSeeker") : RedirectToAction("Index", "Recruiter");
+            if (!result.Succeeded)
+            {
+                Console.WriteLine("Failed to create user");
+                foreach (var error in result.Errors)
+                {
+                    Console.WriteLine($"CreateAsync Error: {error.Description}");
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+                return View(model); // shows errors in the view if you added the validation summary
+            }
+
+            var roleName = model.RoleId == 1 ? "JobSeeker" : "Recruiter";
+            var roleResult = await _userManager.AddToRoleAsync(user, roleName);
+
+            if (!roleResult.Succeeded)
+            {
+                Console.WriteLine("Failed to add to role");
+                foreach (var error in roleResult.Errors)
+                {
+                    Console.WriteLine($"Role Error: {error.Description}");
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+                return View(model);
+            }
+
+            Console.WriteLine("Redirecting to Login...");
+            return RedirectToAction("Login", "User");
         }
 
-        // GET: User/Login
+
+
+        // GET: Login
+        [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
 
-        // POST: User/Login
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Login(string email, string password)
+        public async Task<IActionResult> Login(LoginUser model)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Email == email);
+            if (!ModelState.IsValid)
+                return View(model);
 
+            var user = await _userManager.FindByEmailAsync(model.Email);
             if (user == null)
             {
-                ModelState.AddModelError("", "Invalid email or password.");
-                return View();
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return View(model);
             }
 
-            // Verify password
-            var passwordHasher = new PasswordHasher<User>();
-            var result = passwordHasher.VerifyHashedPassword(user, user.PasswordHash, password);
-
-            if (result != PasswordVerificationResult.Success)
+            var result = await _signInManager.PasswordSignInAsync(user.UserName, model.Password, model.RememberMe, false);
+            if (!result.Succeeded)
             {
-                ModelState.AddModelError("", "Invalid email or password.");
-                return View();
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return View(model);
             }
 
-            // TODO: Implement session or authentication logic here
+            // ✅ Redirect based on role
+            if (await _userManager.IsInRoleAsync(user, "Recruiter"))
+            {
+                return RedirectToAction("Index", "Recruiter");
+            }
+            else if (await _userManager.IsInRoleAsync(user, "JobSeeker"))
+            {
+                return RedirectToAction("Index", "JobSeeker");
+            }
 
-            return RedirectToAction("Dashboard", "Home");
+            // ❌ No valid role
+            await _signInManager.SignOutAsync();
+            ModelState.AddModelError("", "You do not have a valid role assigned.");
+            return View(model);
+        }
+
+
+        // Logout
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Login", "User");
         }
     }
 }

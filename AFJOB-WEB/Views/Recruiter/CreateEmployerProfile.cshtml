@@ -1,0 +1,72 @@
+﻿@model AFJOB_WEB.Models.ViewModels.EmployerViewModel
+
+@{
+    ViewData["Title"] = "Create Employer Profile";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="text-center mb-4">@ViewData["Title"]</h2>
+
+            @* Success / Error Messages *@
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    @TempData["Success"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    @TempData["Error"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            <form asp-action="CreateEmployerProfile" asp-controller="Recruiter" method="post" novalidate>
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    <label asp-for="CompanyName" class="form-label"></label>
+                    <input asp-for="CompanyName" class="form-control @(ViewData.ModelState["CompanyName"]?.Errors.Count > 0 ? "is-invalid" : "")" />
+                    <span asp-validation-for="CompanyName" class="invalid-feedback"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CompanyWebsite" class="form-label"></label>
+                    <input asp-for="CompanyWebsite" type="url" class="form-control @(ViewData.ModelState["CompanyWebsite"]?.Errors.Count > 0 ? "is-invalid" : "")" />
+                    <span asp-validation-for="CompanyWebsite" class="invalid-feedback"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Industry" class="form-label"></label>
+                    <input asp-for="Industry" class="form-control @(ViewData.ModelState["Industry"]?.Errors.Count > 0 ? "is-invalid" : "")" />
+                    <span asp-validation-for="Industry" class="invalid-feedback"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Location" class="form-label"></label>
+                    <input asp-for="Location" class="form-control @(ViewData.ModelState["Location"]?.Errors.Count > 0 ? "is-invalid" : "")" />
+                    <span asp-validation-for="Location" class="invalid-feedback"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label"></label>
+                    <textarea asp-for="Description" rows="4" class="form-control @(ViewData.ModelState["Description"]?.Errors.Count > 0 ? "is-invalid" : "")"></textarea>
+                    <span asp-validation-for="Description" class="invalid-feedback"></span>
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Save Profile</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,15 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AFJOB_WEB.Models;
-
-public partial class Interview
+namespace AFJOB_WEB.Models
 {
-    public int InterviewId { get; set; }
+    public class Interview
+    {
+        [Key]
+        public int InterviewId { get; set; }
 
-    public int? ApplicationId { get; set; }
+        public int ApplicationId { get; set; }
 
-    public DateTime? ScheduledDate { get; set; }
+        [ForeignKey("ApplicationId")]
+        public ApplicationTable Application { get; set; }
 
-    public string? Status { get; set; }
+        [Required]
+        public DateTime InterviewDate { get; set; }
+
+        [Required]
+        public string InterviewType { get; set; }
+
+        public string Notes { get; set; }
+
+        public string InterviewStatus { get; set; } = "Scheduled";
+    }
 }

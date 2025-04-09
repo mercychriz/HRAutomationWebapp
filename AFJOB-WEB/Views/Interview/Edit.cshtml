@@ -1,0 +1,50 @@
+﻿@model AFJOB_WEB.Models.ViewModels.InterviewViewModel
+
+@{
+    ViewData["Title"] = "Edit Interview";
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="InterviewId" />
+    <input type="hidden" asp-for="ApplicationId" />
+
+    <div class="mb-3">
+        <label>Candidate</label>
+        <input type="text" class="form-control" value="@Model.CandidateName" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label>Job Title</label>
+        <input type="text" class="form-control" value="@Model.JobTitle" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="InterviewDate"></label>
+        <input asp-for="InterviewDate" type="datetime-local" class="form-control"
+               value="@Model.InterviewDate.ToString("yyyy-MM-ddTHH:mm")" />
+        <span asp-validation-for="InterviewDate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="InterviewType"></label>
+        <input asp-for="InterviewType" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Notes"></label>
+        <textarea asp-for="Notes" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="InterviewStatus"></label>
+        <select asp-for="InterviewStatus" class="form-control">
+            <option value="Scheduled" selected="@Model.InterviewStatus == " Scheduled"">Scheduled</option>
+            <option value="Completed" selected="@Model.InterviewStatus == " Completed"">Completed</option>
+            <option value="Cancelled" selected="@Model.InterviewStatus == " Cancelled"">Cancelled</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save Changes</button>
+</form>

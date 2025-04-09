@@ -1,0 +1,67 @@
+﻿@model AFJOB_WEB.Models.ViewModels.JobSeekerProfileViewModel
+
+<h2>Edit Profile</h2>
+
+<form asp-action="EditProfile" enctype="multipart/form-data" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PhoneNumber"></label>
+        <input asp-for="PhoneNumber" class="form-control" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Address"></label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <!-- ✅ Visibility Dropdown -->
+    <div class="form-group">
+        <label asp-for="Visibility"></label>
+        <select asp-for="Visibility" class="form-control">
+            <option value="">-- Select Visibility --</option>
+            <option value="Internal" selected="@(Model.Visibility == "Internal" ? "selected" : null)">Internal</option>
+            <option value="External" selected="@(Model.Visibility == "External" ? "selected" : null)">External</option>
+        </select>
+
+        <span asp-validation-for="Visibility" class="text-danger"></span>
+    </div>
+
+    <!-- ✅ Resume Upload -->
+    <div class="form-group">
+        <label>Upload Resume (optional)</label>
+        <input asp-for="ResumeFile" type="file" class="form-control" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ExistingResumePath))
+    {
+        <p>Existing Resume: <a href="@Model.ExistingResumePath" target="_blank">View Resume</a></p>
+    }
+
+    <!-- ✅ Profile Picture Upload -->
+    <div class="form-group">
+        <label>Upload Profile Picture</label>
+        <input asp-for="ProfileImage" type="file" class="form-control" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ExistingProfileImagePath))
+    {
+        <p>Current Picture:</p>
+        <img src="@Model.ExistingProfileImagePath" style="height: 120px; border-radius: 50%;" />
+    }
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>

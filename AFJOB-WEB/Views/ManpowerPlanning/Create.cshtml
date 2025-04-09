@@ -1,0 +1,43 @@
+﻿@model AFJOB_WEB.Models.ManpowerPlanning
+
+@{
+    ViewData["Title"] = "Create Manpower Plan";
+}
+
+<div class="container mt-4">
+    <h3 class="mb-4">Manpower Planning Form</h3>
+
+    <form asp-action="Create" method="post" class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label asp-for="Position" class="form-label"></label>
+            <input asp-for="Position" class="form-control" placeholder="Enter position" />
+            <span asp-validation-for="Position" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Department" class="form-label"></label>
+            <input asp-for="Department" class="form-control" placeholder="Enter department" />
+            <span asp-validation-for="Department" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CurrentHeadcount" class="form-label"></label>
+            <input asp-for="CurrentHeadcount" type="number" class="form-control" />
+            <span asp-validation-for="CurrentHeadcount" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="RequiredHeadcount" class="form-label"></label>
+            <input asp-for="RequiredHeadcount" type="number" class="form-control" />
+            <span asp-validation-for="RequiredHeadcount" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ForecastedGrowth" class="form-label"></label>
+            <input asp-for="ForecastedGrowth" type="number" class="form-control" />
+            <span asp-validation-for="ForecastedGrowth" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>

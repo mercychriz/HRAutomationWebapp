@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AFJOB-WEB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+281a91d8f2d68b1ad481496d84ab33ddedf18023")]
 [assembly: System.Reflection.AssemblyProductAttribute("AFJOB-WEB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AFJOB-WEB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

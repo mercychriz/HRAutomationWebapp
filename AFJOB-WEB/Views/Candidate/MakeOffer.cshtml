@@ -1,0 +1,16 @@
+﻿@model AFJOB_WEB.Models.ViewModels.OfferViewModel
+
+<h3>Make Offer</h3>
+
+<form method="post" asp-action="MakeOffer">
+    <input type="hidden" asp-for="ApplicationId" />
+
+    <div class="mb-3">
+        <label asp-for="OfferDetails" class="form-label"></label>
+        <textarea asp-for="OfferDetails" class="form-control" rows="5"></textarea>
+        <span asp-validation-for="OfferDetails" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Send Offer</button>
+    <a asp-action="ListCandidate" class="btn btn-secondary">Back</a>
+</form>

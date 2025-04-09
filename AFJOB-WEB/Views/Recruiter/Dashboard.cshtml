@@ -1,0 +1,183 @@
+﻿@{
+    ViewData["Title"] = "Recruiter Dashboard";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Recruiter Dashboard</h2>
+
+    <!-- Stats Summary -->
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Jobs Posted</h5>
+                    <p class="display-4">@ViewBag.TotalJobs</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <h5 class="card-title">Applications</h5>
+                    <p class="display-4">@ViewBag.TotalApplications</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-warning">
+                <div class="card-body">
+                    <h5 class="card-title">Interviews</h5>
+                    <p class="display-4">@ViewBag.TotalInterviews</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Charts Section -->
+    <div class="row">
+        <!-- Line Chart -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header">Applications Over Time</div>
+                <div class="card-body">
+                    <canvas id="applicationsLineChart" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bar Chart -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header">Jobs Per Department</div>
+                <div class="card-body">
+                    <canvas id="jobsBarChart" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pie Chart -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header">Applications by Status</div>
+                <div class="card-body">
+                    <canvas id="applicationsPieChart" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Doughnut Chart -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header">Applications by Location</div>
+                <div class="card-body">
+                    <canvas id="applicationsByLocationChart" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horizontal Bar Chart -->
+        <div class="col-md-12 mb-4">
+            <div class="card">
+                <div class="card-header">Salary per Job</div>
+                <div class="card-body">
+                    <canvas id="salaryPerJobChart" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const months = @Html.Raw(Json.Serialize(ViewBag.Months));
+    const applicationCounts = @Html.Raw(Json.Serialize(ViewBag.ApplicationCounts));
+
+    const departments = @Html.Raw(Json.Serialize(ViewBag.Departments));
+    const jobCounts = @Html.Raw(Json.Serialize(ViewBag.JobCounts));
+
+    const statuses = @Html.Raw(Json.Serialize(ViewBag.Statuses));
+    const statusCounts = @Html.Raw(Json.Serialize(ViewBag.StatusCounts));
+
+    const locations = @Html.Raw(Json.Serialize(ViewBag.Locations));
+    const locationCounts = @Html.Raw(Json.Serialize(ViewBag.LocationCounts));
+
+    const jobTitles = @Html.Raw(Json.Serialize(ViewBag.JobTitles));
+    const salaries = @Html.Raw(Json.Serialize(ViewBag.Salaries));
+
+    // Applications Over Time (Line Chart)
+    new Chart(document.getElementById('applicationsLineChart').getContext('2d'), {
+        type: 'line',
+        data: {
+            labels: months,
+            datasets: [{
+                label: 'Applications',
+                data: applicationCounts,
+                borderColor: 'rgb(75, 192, 192)',
+                fill: false
+            }]
+        }
+    });
+
+    // Jobs Per Department (Bar Chart)
+    new Chart(document.getElementById('jobsBarChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: departments,
+            datasets: [{
+                label: 'Jobs Posted',
+                data: jobCounts,
+                backgroundColor: 'rgba(54, 162, 235, 0.6)'
+            }]
+        }
+    });
+
+    // Applications by Status (Pie Chart)
+    new Chart(document.getElementById('applicationsPieChart').getContext('2d'), {
+        type: 'pie',
+        data: {
+            labels: statuses,
+            datasets: [{
+                data: statusCounts,
+                backgroundColor: [
+                    'rgba(255, 206, 86, 0.6)',
+                    'rgba(75, 192, 192, 0.6)',
+                    'rgba(255, 99, 132, 0.6)'
+                ]
+            }]
+        }
+    });
+
+    // Applications by Location (Doughnut Chart)
+    new Chart(document.getElementById('applicationsByLocationChart').getContext('2d'), {
+        type: 'doughnut',
+        data: {
+            labels: locations,
+            datasets: [{
+                data: locationCounts,
+                backgroundColor: [
+                    'rgba(54, 162, 235, 0.6)',
+                    'rgba(255, 159, 64, 0.6)',
+                    'rgba(255, 99, 132, 0.6)'
+                ]
+            }]
+        }
+    });
+
+    // Salary per Job (Horizontal Bar Chart)
+    new Chart(document.getElementById('salaryPerJobChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: jobTitles,
+            datasets: [{
+                label: 'Salary',
+                data: salaries,
+                backgroundColor: 'rgba(153, 102, 255, 0.6)'
+            }]
+        },
+        options: {
+            indexAxis: 'y'
+        }
+    });
+</script>

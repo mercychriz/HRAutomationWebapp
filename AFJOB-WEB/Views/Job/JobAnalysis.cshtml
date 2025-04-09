@@ -1,0 +1,47 @@
+﻿@model AFJOB_WEB.Models.ViewModels.JobAnalysisViewModel
+
+@{
+    ViewData["Title"] = "Job Analysis";
+}
+
+<h2 class="mt-4">Job Analysis</h2>
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-briefcase"></i> Total Jobs Posted</h5>
+                <p class="card-text display-4">@Model.TotalJobs</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-users"></i> Total Applications</h5>
+                <p class="card-text display-4">@Model.TotalApplications</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3>Applications per Job</h3>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Job Title</th>
+            <th>Number of Applications</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ApplicationsPerJob)
+        {
+            <tr>
+                <td>@item.JobTitle</td>
+                <td>@item.ApplicationCount</td>
+            </tr>
+        }
+    </tbody>
+</table>

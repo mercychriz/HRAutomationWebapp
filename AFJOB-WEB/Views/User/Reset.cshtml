@@ -1,0 +1,28 @@
+﻿@model AFJOB_WEB.Models.ResetViewModel
+
+@{
+    ViewBag.Title = "Reset Password";
+}
+
+<h2>Reset Password</h2>
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.Token)
+
+    <div>
+        <label>New Password:</label>
+        <input type="password" name="newPassword" class="form-control" required />
+    </div>
+
+    <div>
+        <label>Confirm Password:</label>
+        <input type="password" name="confirmPassword" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-success">Reset Password</button>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <p style="color:red">@ViewBag.ErrorMessage</p>
+    }
+}

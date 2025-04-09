@@ -22,24 +22,36 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                
-                        
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Employee">Employee</a>
-                        </li>
+                        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1">
+                                @using Microsoft.AspNetCore.Identity
+                                @inject SignInManager<User> SignInManager
+                                @inject UserManager<User> UserManager
 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Recruiter" asp-action="PostJob">Post a Job</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Recruiter" asp-action="JobList">Manage Jobs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Recruiter" asp-action="Applications">Job Applications</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Recruiter" asp-action="Interviews">Scheduled Interviews</a>
-                        </li>
+                                @{
+                                    var user = await UserManager.GetUserAsync(User);
+                                    var roles = user != null ? await UserManager.GetRolesAsync(user) : new List<string>();
+                                    var role = roles.FirstOrDefault();
+                                }
+
+                                @if (SignInManager.IsSignedIn(User))
+                                {
+                                    <div class="d-flex align-items-center">
+                                        @if (role == "JobSeeker")
+                                        {
+                                            <a asp-controller="JobSeeker" asp-action="Index" class="btn btn-outline-primary me-2">🏠 Dashboard</a>
+                                        }
+                                        else if (role == "Recruiter")
+                                        {
+                                            <a asp-controller="Recruiter" asp-action="Index" class="btn btn-outline-success me-2">🏠 Dashboard</a>
+                                        }
+                                    </div>
+                                }
+
+                            </ul>
+
+                        
+                       
                       
                     </ul>
                     

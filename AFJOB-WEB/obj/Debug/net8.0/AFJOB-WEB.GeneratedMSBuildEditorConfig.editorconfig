@@ -26,6 +26,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hp\OneDrive\Desktop\AFJOB_WEBAPP\AFJOB-WEB\AFJOB-WEB
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Candidate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Candidate/ListCandidate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXExpc3RDYW5kaWRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Candidate/MakeOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXE1ha2VPZmZlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,8 +46,96 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Interview/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJ2aWV3XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Interview/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJ2aWV3XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Interview/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJ2aWV3XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Interview/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJ2aWV3XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Interview/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJ2aWV3XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/JobSeeker/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2VyXEFwcGx5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/JobSeeker/CreateProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2VyXENyZWF0ZVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/JobSeeker/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2VyXEVkaXRQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/JobSeeker/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/JobSeeker/MyApplications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2VyXE15QXBwbGljYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/JobSeeker/ProfileDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2VyXFByb2ZpbGVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Job/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Job/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Job/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Job/JobAnalysis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEpvYkFuYWx5c2lzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Job/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Job/_JobFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXF9Kb2JGb3JtUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/ManpowerPlanning/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFucG93ZXJQbGFubmluZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/ManpowerPlanning/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFucG93ZXJQbGFubmluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Recruiter/CreateEmployerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnVpdGVyXENyZWF0ZUVtcGxveWVyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Recruiter/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnVpdGVyXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Recruiter/EditEmployerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnVpdGVyXEVkaXRFbXBsb3llclByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Recruiter/EmployerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnVpdGVyXEVtcGxveWVyUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/Recruiter/Index.cshtml]
@@ -50,8 +150,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/User/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/User/Reset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZXNldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hp/OneDrive/Desktop/AFJOB_WEBAPP/AFJOB-WEB/AFJOB-WEB/Views/_ViewImports.cshtml]

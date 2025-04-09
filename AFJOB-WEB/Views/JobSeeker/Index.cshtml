@@ -1,7 +1,101 @@
-﻿@{
-    ViewData["Title"] = "Job Seeker Dashboard";
+﻿@model AFJOB_WEB.Models.ViewModels.JobSeekerDashboardViewModel
+
+@{
+    ViewData["Title"] = "Job Listings";
 }
 
-<h2>@ViewData["Title"]</h2>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">@ViewData["Title"]</h2>
 
-<p>Welcome to the Job Seeker dashboard!</p>
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+
+    <!-- 🔹 Profile Section START -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h4>My Profile</h4>
+        </div>
+
+        <div class="card-body">
+            @if (Model.Profile != null)
+            {
+                <!-- ✅ Profile Image -->
+                <div class="mb-3 text-center">
+                    @if (!string.IsNullOrEmpty(Model.Profile.ProfileImagePath))
+                    {
+                        <img src="@Model.Profile.ProfileImagePath"
+                             alt="Profile Picture"
+                             style="height: 120px; width: 120px; border-radius: 50%; object-fit: cover;" />
+                        <p class="text-muted">Image path: @Model.Profile.ProfileImagePath</p>
+                    }
+                    else
+                    {
+                        <p class="text-danger">⚠️ Profile image not found or not uploaded.</p>
+                    }
+                </div>
+
+                <p><strong>Full Name:</strong> @Model.Profile.FullName</p>
+                <p><strong>Email:</strong> @Model.Profile.Email</p>
+                <p><strong>Phone:</strong> @Model.Profile.PhoneNumber</p>
+                <p><strong>Address:</strong> @Model.Profile.Address</p>
+
+                <a asp-action="EditProfile" asp-controller="JobSeeker" class="btn btn-warning">Edit Profile</a>
+
+                <form asp-action="DeleteProfile" asp-controller="JobSeeker" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete your profile? This action cannot be undone.');">Delete Profile</button>
+                </form>
+            }
+            else
+            {
+                <p>You have not created a profile yet.</p>
+                <a asp-action="CreateProfile" asp-controller="JobSeeker" class="btn btn-primary">Create Profile</a>
+            }
+        </div>
+    </div>
+    <!-- 🔹 Profile Section END -->
+    <!-- 🔎 Search Form -->
+    <form asp-action="Index" method="get" class="form-inline mb-4">
+        <input type="text" name="keyword" placeholder="Search jobs" class="form-control mr-2" />
+        <input type="text" name="location" placeholder="Location" class="form-control mr-2" />
+        <button type="submit" class="btn btn-success">Search</button>
+    </form>
+    <a asp-action="MyApplications" asp-controller="JobSeeker" class="btn btn-outline-info mb-3">
+        View My Applications
+    </a>
+
+    <!-- 📄 Job Listings -->
+    <div class="row">
+        @if (Model.Jobs != null && Model.Jobs.Any())
+        {
+            @foreach (var job in Model.Jobs)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">@job.Title</h5>
+                            <p class="card-text">
+                                @(job.Description.Length > 100 ? job.Description.Substring(0, 100) + "..." : job.Description)
+                            </p>
+                            <a asp-action="Apply" asp-controller="JobSeeker" asp-route-jobId="@job.JobId" class="btn btn-success btn-sm">
+                                Apply Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <div class="alert alert-info">No job listings found for your visibility level.</div>
+            </div>
+        }
+    </div>
+</div>

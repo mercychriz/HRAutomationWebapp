@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\candidate\\makeoffer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\candidate\\makeoffer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodels\\jobseekerprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodels\\jobseekerprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\jobseeker\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\jobseeker\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\jobseeker\\createprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\jobseeker\\createprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\migrations\\20250409041347_updateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\migrations\\20250409041347_updateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\jobseeker\\profiledetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\jobseeker\\profiledetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\jobseekerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\jobseekerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\jobseeker\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\jobseeker\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\recruiter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,64 +51,324 @@
       "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\jobseeker\\myapplications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\jobseeker\\myapplications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodels\\jobseekerapplicationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodels\\jobseekerapplicationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250217015819_SetUserIdAsIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250217015819_SetUserIdAsIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\applicationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\applicationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\afjobwebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\afjobwebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\job\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\job\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\job\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\job\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodels\\jobviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodels\\jobviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\jobseeker\\apply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\jobseeker\\apply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\manpowerplanning\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\manpowerplanning\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\manpowerplanning\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\manpowerplanning\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\manpowerplanningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\manpowerplanningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\manpowerplanning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\manpowerplanning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\candidate\\listcandidate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\candidate\\listcandidate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodels\\offerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodels\\offerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodels\\jobapplicationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodels\\jobapplicationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\jobanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\jobanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\jobdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\jobdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodels\\employerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodels\\employerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodels\\interviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodels\\interviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodels\\jobseekerdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodels\\jobseekerdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\candidate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\candidate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317184545_UpdateEmploye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317184545_UpdateEmploye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317061640_NewInitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317061640_NewInitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317060549_FxJob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317060549_FxJob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317060322_FixJob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317060322_FixJob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317055712_FixedModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317055712_FixedModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317053840_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317053840_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317051136_Jo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317051136_Jo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317030334_Intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317030334_Intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317024419_LoginUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317024419_LoginUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317014957_InitialUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317014957_InitialUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317013044_UpdateUserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250317013044_UpdateUserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250216215805_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250216215805_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\loginusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\loginusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\jobdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\jobdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\job\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\job\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\job\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\job\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\migrations\\20250319173337_applicati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\migrations\\20250319173337_applicati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\migrations\\20250319164601_interviewmodelupgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\migrations\\20250319164601_interviewmodelupgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\afjobwebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\afjobwebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\interviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\interviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\interview\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\interview\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\interview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\interview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\interview\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\interview\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\interview\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\interview\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\controllers\\recruitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\controllers\\recruitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\jobseeker\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\jobseeker\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\recruiter\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\recruiter\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\job\\jobanalysis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\job\\jobanalysis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\viewmodels\\jobanalysisviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\viewmodels\\jobanalysisviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\migrations\\20250317222942_interviewupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\migrations\\20250317222942_interviewupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\interview\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\interview\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\migrations\\20250317213352_applicationupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\migrations\\20250317213352_applicationupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\recruiter\\createemployerprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\recruiter\\createemployerprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\migrations\\20250317190543_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\migrations\\20250317190543_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\recruiter\\employerprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\recruiter\\employerprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\recruiter\\editemployerprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\recruiter\\editemployerprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\job\\_jobformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\job\\_jobformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\resetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\resetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\afjob-web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\afjob-web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\user\\reset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\user\\reset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\user\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\views\\user\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250216215805_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AFJOB-WEB\\Migrations\\20250216215805_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -87,8 +383,16 @@
       "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\migrations\\20250217004541_initila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\migrations\\20250217004541_initila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\migrations\\20250409034636_initialupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\migrations\\20250409034636_initialupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\migrations\\20250409023904_newupdte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\migrations\\20250409023904_newupdte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|c:\\users\\hp\\onedrive\\desktop\\afjob_webapp\\afjob-web\\afjob-web\\migrations\\20250409011834_updatedcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA5373-C6D1-4D04-9025-7235630216B3}|AFJOB-WEB\\AFJOB-WEB.csproj|solutionrelative:afjob-web\\migrations\\20250409011834_updatedcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,232 +402,1107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\User.cs",
-              "RelativeToolTip": "AFJOB-WEB\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "DocumentIndex": 2,
+              "Title": "JobSeekerProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobSeekerProfileViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModels\\JobSeekerProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobSeekerProfileViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModels\\JobSeekerProfileViewModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwB8AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:16:32.152Z",
+              "WhenOpened": "2025-03-19T23:50:54.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\Index.cshtml",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Recruiter\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\Index.cshtml",
-              "RelativeToolTip": "AFJOB-WEB\\Views\\Recruiter\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T22:54:27.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AFJOB-WEB\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T02:41:51.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\User\\Register.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "AFJOB-WEB\\Views\\User\\Register.cshtml",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAAEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T02:05:40.715Z",
+              "Title": "CandidateController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\CandidateController.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\CandidateController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\CandidateController.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Controllers\\CandidateController.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAIIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T20:18:35.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AFJOB-WEB\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAALoAAAA2AAAA",
+              "Title": "MakeOffer.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Candidate\\MakeOffer.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Candidate\\MakeOffer.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Candidate\\MakeOffer.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Candidate\\MakeOffer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T05:35:46.441Z",
+              "WhenOpened": "2025-04-09T01:00:30.603Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Program.cs",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Program.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Program.cs",
-              "RelativeToolTip": "AFJOB-WEB\\Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAACIAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T01:07:27.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModel\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModel\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModel\\RegisterViewModel.cs",
-              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModel\\RegisterViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T00:40:58.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250217015819_SetUserIdAsIdentity.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250217015819_SetUserIdAsIdentity.cs",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250217015819_SetUserIdAsIdentity.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250217015819_SetUserIdAsIdentity.cs",
-              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250217015819_SetUserIdAsIdentity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T01:58:19.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\UserController.cs",
-              "RelativeToolTip": "AFJOB-WEB\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAUwFgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T23:00:51.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AfjobWebContext.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\AfjobWebContext.cs",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\AfjobWebContext.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\AfjobWebContext.cs",
-              "RelativeToolTip": "AFJOB-WEB\\Models\\AfjobWebContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:54:58.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Employer.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Employer.cs",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\Employer.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Employer.cs",
-              "RelativeToolTip": "AFJOB-WEB\\Models\\Employer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:56:06.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Job.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Job.cs",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\Job.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Job.cs",
-              "RelativeToolTip": "AFJOB-WEB\\Models\\Job.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:56:14.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20250217004541_Initila.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250217004541_Initila.cs",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250217004541_Initila.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250217004541_Initila.cs",
-              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250217004541_Initila.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T00:45:42.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\appsettings.json",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\appsettings.json",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\appsettings.json",
-              "RelativeToolTip": "AFJOB-WEB\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-16T21:47:58.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RecruiterController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\RecruiterController.cs",
-              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\RecruiterController.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\RecruiterController.cs",
-              "RelativeToolTip": "AFJOB-WEB\\Controllers\\RecruiterController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:56:48.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "JobseekerController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\JobseekerController.cs",
               "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\JobseekerController.cs",
               "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\JobseekerController.cs",
               "RelativeToolTip": "AFJOB-WEB\\Controllers\\JobseekerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAA0BAAAAAAAAAAAAACcBAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T22:57:31.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\JobSeeker\\EditProfile.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\EditProfile.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\JobSeeker\\EditProfile.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T04:12:03.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\CreateProfile.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\JobSeeker\\CreateProfile.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\CreateProfile.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\JobSeeker\\CreateProfile.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAADAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T02:56:56.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250409041347_Updateprofile.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250409041347_Updateprofile.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250409041347_Updateprofile.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250409041347_Updateprofile.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250409041347_Updateprofile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T04:13:47.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProfileDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\ProfileDetails.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\JobSeeker\\ProfileDetails.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\ProfileDetails.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\JobSeeker\\ProfileDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T21:40:38.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobSeekerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\JobSeekerProfile.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\JobSeekerProfile.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\JobSeekerProfile.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\JobSeekerProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:31:36.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\Index.cshtml",
               "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\JobSeeker\\Index.cshtml",
               "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\Index.cshtml",
               "RelativeToolTip": "AFJOB-WEB\\Views\\JobSeeker\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T22:53:44.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T22:53:44.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "20250409034636_InitialUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250409034636_InitialUpdate.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250409034636_InitialUpdate.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250409034636_InitialUpdate.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250409034636_InitialUpdate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:46:36.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\Index.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Recruiter\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\Index.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Recruiter\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T22:54:27.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T02:41:51.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyApplications.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\MyApplications.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\JobSeeker\\MyApplications.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\MyApplications.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\JobSeeker\\MyApplications.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T00:30:44.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JobSeekerApplicationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobSeekerApplicationViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModels\\JobSeekerApplicationViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobSeekerApplicationViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModels\\JobSeekerApplicationViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:18:31.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\ApplicationController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Controllers\\ApplicationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:40:11.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationTable.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ApplicationTable.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ApplicationTable.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ApplicationTable.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ApplicationTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T19:54:50.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "20250409023904_NewUpdte.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250409023904_NewUpdte.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250409023904_NewUpdte.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250409023904_NewUpdte.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250409023904_NewUpdte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:39:05.056Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\JobController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\JobController.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Controllers\\JobController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAANgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T17:15:15.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Job\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\Edit.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Job\\Edit.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwDoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T17:17:32.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JobViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModels\\JobViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModels\\JobViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:19:02.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\Create.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Job\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\Create.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Job\\Create.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADIAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T17:14:28.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\Job.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Job.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\Job.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T21:56:14.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "20250409011834_UpdatedCode.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250409011834_UpdatedCode.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250409011834_UpdatedCode.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250409011834_UpdatedCode.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250409011834_UpdatedCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:18:34.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Apply.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\Apply.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\JobSeeker\\Apply.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\JobSeeker\\Apply.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\JobSeeker\\Apply.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T16:37:46.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\ManpowerPlanning\\Create.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\ManpowerPlanning\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\ManpowerPlanning\\Create.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\ManpowerPlanning\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T06:09:31.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\ManpowerPlanning\\Index.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\ManpowerPlanning\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\ManpowerPlanning\\Index.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\ManpowerPlanning\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T16:48:46.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ManpowerPlanningController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\ManpowerPlanningController.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\ManpowerPlanningController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\ManpowerPlanningController.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Controllers\\ManpowerPlanningController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T16:35:38.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ManpowerPlanning.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ManpowerPlanning.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ManpowerPlanning.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ManpowerPlanning.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ManpowerPlanning.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T06:05:32.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ListCandidate.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Candidate\\ListCandidate.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Candidate\\ListCandidate.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Candidate\\ListCandidate.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Candidate\\ListCandidate.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T00:48:07.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OfferViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\OfferViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModels\\OfferViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\OfferViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModels\\OfferViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T00:57:53.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JobApplicationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobApplicationViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModels\\JobApplicationViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobApplicationViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModels\\JobApplicationViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:47:26.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Candidate.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\Candidate.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Candidate.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\Candidate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T19:57:33.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Interview.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Interview.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\Interview.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Interview.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\Interview.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:23:39.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "JobAnalysis.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\JobAnalysis.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\JobAnalysis.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\JobAnalysis.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\JobAnalysis.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T03:51:50.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "JobDescription.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\JobDescription.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\JobDescription.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\JobDescription.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\JobDescription.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T03:52:40.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EmployerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\EmployerViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModels\\EmployerViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\EmployerViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModels\\EmployerViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:57:54.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "InterviewViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\InterviewViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModels\\InterviewViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\InterviewViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModels\\InterviewViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:49:36.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T00:40:58.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "JobSeekerDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobSeekerDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModels\\JobSeekerDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobSeekerDashboardViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModels\\JobSeekerDashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T02:31:06.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Candidate\\Index.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Candidate\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Candidate\\Index.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Candidate\\Index.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T20:16:05.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\User.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:16:32.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\appsettings.json",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\appsettings.json",
+              "RelativeToolTip": "AFJOB-WEB\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T21:47:58.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "LoginUserController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\LoginUserController.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\LoginUserController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\LoginUserController.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Controllers\\LoginUserController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAUwEUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T15:13:08.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAqwH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:00:51.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "JobDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\JobDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\JobDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\JobDetailsViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\JobDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T04:23:53.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\List.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Job\\List.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\List.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Job\\List.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwC0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T17:16:29.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Job\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\Delete.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Job\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T17:18:34.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20250319173337_Applicati.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250319173337_Applicati.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250319173337_Applicati.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250319173337_Applicati.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250319173337_Applicati.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:33:38.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T00:03:37.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20250319164601_Interviewmodelupgrade.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250319164601_Interviewmodelupgrade.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250319164601_Interviewmodelupgrade.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250319164601_Interviewmodelupgrade.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250319164601_Interviewmodelupgrade.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:46:01.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AfjobWebContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\AfjobWebContext.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\AfjobWebContext.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\AfjobWebContext.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\AfjobWebContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:08:45.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "InterviewController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\InterviewController.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\InterviewController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\InterviewController.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Controllers\\InterviewController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAUwEoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T01:55:02.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Interview\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Interview\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Interview\\Edit.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Interview\\Edit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T22:22:52.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Interview\\Index.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Interview\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Interview\\Index.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Interview\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T02:02:50.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Interview\\Details.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Interview\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Interview\\Details.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Interview\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T02:06:45.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Interview\\Create.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Interview\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Interview\\Create.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Interview\\Create.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T20:28:25.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RecruiterController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\RecruiterController.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Controllers\\RecruiterController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Controllers\\RecruiterController.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Controllers\\RecruiterController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:56:48.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Recruiter\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\Dashboard.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Recruiter\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T15:55:54.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "JobAnalysis.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\JobAnalysis.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Job\\JobAnalysis.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\JobAnalysis.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Job\\JobAnalysis.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T03:53:47.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "JobAnalysisViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobAnalysisViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ViewModels\\JobAnalysisViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ViewModels\\JobAnalysisViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ViewModels\\JobAnalysisViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T22:54:18.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20250317222942_Interviewupdate.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317222942_Interviewupdate.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317222942_Interviewupdate.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317222942_Interviewupdate.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317222942_Interviewupdate.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T22:29:43.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Interview\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Interview\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Interview\\Delete.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Interview\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T22:23:28.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20250317213352_ApplicationUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317213352_ApplicationUpdate.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317213352_ApplicationUpdate.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317213352_ApplicationUpdate.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317213352_ApplicationUpdate.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAUwIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:33:52.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CreateEmployerProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\CreateEmployerProfile.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Recruiter\\CreateEmployerProfile.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\CreateEmployerProfile.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Recruiter\\CreateEmployerProfile.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T17:17:15.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T02:05:40.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Employer.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Employer.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\Employer.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Employer.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\Employer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T21:56:06.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Program.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Program.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Program.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T01:07:27.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "20250317190543_initial.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317190543_initial.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317190543_initial.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317190543_initial.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317190543_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T19:05:43.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250317184545_UpdateEmploye.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317184545_UpdateEmploye.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317184545_UpdateEmploye.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317184545_UpdateEmploye.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317184545_UpdateEmploye.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:45:46.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "EmployerProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\EmployerProfile.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Recruiter\\EmployerProfile.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\EmployerProfile.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Recruiter\\EmployerProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T18:22:12.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "EditEmployerProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\EditEmployerProfile.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Recruiter\\EditEmployerProfile.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Recruiter\\EditEmployerProfile.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Recruiter\\EditEmployerProfile.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T17:18:16.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250317061640_NewInitial.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317061640_NewInitial.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317061640_NewInitial.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317061640_NewInitial.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317061640_NewInitial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:16:41.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250317060549_FxJob.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317060549_FxJob.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317060549_FxJob.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317060549_FxJob.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317060549_FxJob.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:05:49.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250317060322_FixJob.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317060322_FixJob.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317060322_FixJob.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317060322_FixJob.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317060322_FixJob.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:03:22.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20250317055712_FixedModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317055712_FixedModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317055712_FixedModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317055712_FixedModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317055712_FixedModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T05:57:12.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250317053840_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317053840_Initial.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317053840_Initial.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317053840_Initial.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317053840_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T05:38:40.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20250317051136_Jo.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317051136_Jo.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317051136_Jo.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317051136_Jo.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317051136_Jo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T05:11:36.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "_JobFormPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\_JobFormPartial.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Job\\_JobFormPartial.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Job\\_JobFormPartial.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Job\\_JobFormPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T04:25:04.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "LoginUser.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\LoginUser.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\LoginUser.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\LoginUser.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\LoginUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T15:09:58.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T15:19:27.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250317030334_Intial.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317030334_Intial.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317030334_Intial.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317030334_Intial.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317030334_Intial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T03:03:34.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20250317024419_LoginUser.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317024419_LoginUser.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317024419_LoginUser.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317024419_LoginUser.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317024419_LoginUser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T02:44:20.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250317014957_InitialUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317014957_InitialUpdate.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317014957_InitialUpdate.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317014957_InitialUpdate.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317014957_InitialUpdate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T01:49:57.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Services\\EmailService.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T15:57:26.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250317013044_UpdateUserModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317013044_UpdateUserModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250317013044_UpdateUserModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250317013044_UpdateUserModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Migrations\\20250317013044_UpdateUserModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T01:30:45.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ResetViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ResetViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ResetViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ResetViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ResetViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T16:50:14.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "AFJOB-WEB.csproj",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\AFJOB-WEB.csproj",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\AFJOB-WEB.csproj",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\AFJOB-WEB.csproj",
+              "RelativeToolTip": "AFJOB-WEB\\AFJOB-WEB.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-17T00:53:06.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHYAAAAAm2xebxQwwIIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T05:35:46.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Reset.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\User\\Reset.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\User\\Reset.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\User\\Reset.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\User\\Reset.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T16:01:14.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\User\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\User\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\User\\ForgotPassword.cshtml",
+              "RelativeToolTip": "AFJOB-WEB\\Views\\User\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T15:21:05.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Role.cs",
               "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\Role.cs",
@@ -331,12 +1510,35 @@
               "RelativeToolTip": "AFJOB-WEB\\Models\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:28:07.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T22:28:07.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 90,
+              "Title": "Resume.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Resume.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\Resume.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\Resume.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\Resume.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T19:57:04.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AFJOB-WEB\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AFJOB-WEB\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T16:21:54.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "20250216215805_Initial.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Migrations\\20250216215805_Initial.cs",
               "RelativeDocumentMoniker": "AFJOB-WEB\\Migrations\\20250216215805_Initial.cs",
@@ -347,7 +1549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 92,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\_ViewImports.cshtml",
@@ -355,12 +1557,11 @@
               "RelativeToolTip": "AFJOB-WEB\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-14T14:40:03.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T14:40:03.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 93,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "AFJOB-WEB\\Views\\_ViewStart.cshtml",
@@ -368,12 +1569,11 @@
               "RelativeToolTip": "AFJOB-WEB\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-14T14:40:27.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T14:40:27.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 94,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\AFJOB_WEBAPP\\AFJOB-WEB\\AFJOB-WEB\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "AFJOB-WEB\\wwwroot\\css\\site.css",
@@ -381,8 +1581,7 @@
               "RelativeToolTip": "AFJOB-WEB\\wwwroot\\css\\site.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-11T04:00:21.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:00:21.241Z"
             }
           ]
         }

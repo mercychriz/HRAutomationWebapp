@@ -1,0 +1,38 @@
+﻿@model IEnumerable<AFJOB_WEB.Models.ViewModels.InterviewViewModel>
+
+@{
+    ViewData["Title"] = "Interviews";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Candidate</th>
+            <th>Job Title</th>
+            <th>Interview Date</th>
+            <th>Type</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CandidateName</td>
+                <td>@item.JobTitle</td>
+                <td>@item.InterviewDate.ToString("f")</td>
+                <td>@item.InterviewType</td>
+                <td>@item.InterviewStatus</td>
+                <td>
+                    <a asp-action="Details" asp-route-interviewId="@item.InterviewId" class="btn btn-info btn-sm">Details</a>
+                    <a asp-controller="Interview" asp-action="Edit" asp-route-interviewId="@item.InterviewId" class="btn btn-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-interviewId="@item.InterviewId" class="btn btn-danger btn-sm">Cancel</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

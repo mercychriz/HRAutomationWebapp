@@ -1,0 +1,48 @@
+﻿@model AFJOB_WEB.Models.Employer
+@{
+    ViewData["Title"] = "Edit Employer Profile";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Edit Employer Profile</h2>
+
+    <form asp-action="EditEmployerProfile" method="post">
+        @Html.AntiForgeryToken()
+
+        <div class="mb-3">
+            <label asp-for="CompanyName"></label>
+            <input asp-for="CompanyName" class="form-control" required />
+            <span asp-validation-for="CompanyName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CompanyWebsite"></label>
+            <input asp-for="CompanyWebsite" class="form-control" />
+            <span asp-validation-for="CompanyWebsite" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Industry"></label>
+            <input asp-for="Industry" class="form-control" required />
+            <span asp-validation-for="Industry" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Location"></label>
+            <input asp-for="Location" class="form-control" required />
+            <span asp-validation-for="Location" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary px-5">Update Profile</button>
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

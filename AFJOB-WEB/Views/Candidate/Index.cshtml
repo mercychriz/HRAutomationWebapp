@@ -1,0 +1,50 @@
+﻿@model AFJOB_WEB.Models.Candidate
+
+<div class="container mt-4">
+    <h2 class="mb-3">Candidate Application Form</h2>
+    <form method="post" asp-action="Save" asp-controller="Candidate" enctype="multipart/form-data">
+
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter full name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input asp-for="Email" class="form-control" placeholder="Enter email address" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Phone Number</label>
+            <input asp-for="PhoneNumber" class="form-control" placeholder="Enter phone number" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Resume Upload</label>
+            <input type="file" name="ResumeFile" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Application Source</label>
+            <select asp-for="ApplicationSource" class="form-select">
+                <option value="">Select Source</option>
+                <option value="Job Board">Job Board</option>
+                <option value="Referral">Referral</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Company Website">Company Website</option>
+                <option value="Other">Other</option>
+            </select>
+            <span asp-validation-for="ApplicationSource" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Notes (Optional)</label>
+            <textarea asp-for="Notes" class="form-control" rows="3" placeholder="Add any additional notes"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Application</button>
+    </form>
+</div>

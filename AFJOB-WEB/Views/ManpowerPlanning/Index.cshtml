@@ -1,0 +1,35 @@
+﻿@model List<AFJOB_WEB.Models.ManpowerPlanning>
+
+@{
+    ViewData["Title"] = "Manpower Planning Records";
+}
+
+<div class="container mt-4">
+    <h3 class="mb-4">Manpower Planning Records</h3>
+
+    <a class="btn btn-success mb-3" asp-action="Create">Add New</a>
+
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Position</th>
+                <th>Department</th>
+                <th>Current Headcount</th>
+                <th>Required Headcount</th>
+                <th>Forecasted Growth (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var plan in Model)
+            {
+                <tr>
+                    <td>@plan.Position</td>
+                    <td>@plan.Department</td>
+                    <td>@plan.CurrentHeadcount</td>
+                    <td>@plan.RequiredHeadcount</td>
+                    <td>@plan.ForecastedGrowth %</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

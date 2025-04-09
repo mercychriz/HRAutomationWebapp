@@ -1,0 +1,63 @@
+﻿@model IEnumerable<AFJOB_WEB.Models.ViewModels.JobApplicationViewModel>
+
+@{
+    ViewData["Title"] = "List of Job Applications";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Candidate</th>
+            <th>Email</th>
+            <th>Job Title</th>
+            <th>Application Date</th>
+            <th>Resume</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CandidateName</td>
+                <td>@item.CandidateEmail</td>
+                <td>@item.JobTitle</td>
+                <td>@item.ApplicationDate.ToString("yyyy-MM-dd")</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ResumePath))
+                    {
+                        <a href="@Url.Content(item.ResumePath)" target="_blank" class="btn btn-sm btn-info">
+                            View Resume
+                        </a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">No Resume</span>
+                    }
+                </td>
+                <td>@item.Status</td>
+                <td>
+                    <a asp-controller="Interview" asp-action="Create" asp-route-applicationId="@item.ApplicationId" class="btn btn-sm btn-primary">
+                        Schedule Interview
+                    </a>
+                    <a asp-action="MakeOffer" asp-route-applicationId="@item.ApplicationId" class="btn btn-sm btn-success">
+                        Make Offer
+                    </a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

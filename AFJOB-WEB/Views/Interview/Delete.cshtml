@@ -1,0 +1,26 @@
+﻿@model AFJOB_WEB.Models.ViewModels.InterviewViewModel
+
+@{
+    ViewData["Title"] = "Cancel Interview";
+}
+
+<h2>Cancel Interview</h2>
+
+<h4>Are you sure you want to cancel this interview?</h4>
+
+<dl class="row">
+    <dt class="col-sm-2">Candidate</dt>
+    <dd class="col-sm-10">@Model.CandidateName</dd>
+
+    <dt class="col-sm-2">Job</dt>
+    <dd class="col-sm-10">@Model.JobTitle</dd>
+
+    <dt class="col-sm-2">Interview Date</dt>
+    <dd class="col-sm-10">@Model.InterviewDate.ToString("f")</dd>
+</dl>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="InterviewId" />
+    <button type="submit" class="btn btn-danger">Cancel Interview</button>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>

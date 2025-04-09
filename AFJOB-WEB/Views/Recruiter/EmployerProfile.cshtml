@@ -1,0 +1,21 @@
+﻿@model AFJOB_WEB.Models.Employer
+
+<h2>Your Company Profile</h2>
+
+<div>
+    <strong>Company Name:</strong> @Model.CompanyName
+</div>
+<div>
+    <strong>Website:</strong> @Model.CompanyWebsite
+</div>
+<div>
+    <strong>Industry:</strong> @Model.Industry
+</div>
+<div>
+    <strong>Location:</strong> @Model.Location
+</div>
+<div>
+    <strong>Description:</strong> @Model.Description
+</div>
+
+<a asp-action="EditEmployerProfile" asp-controller="Recruiter" class="btn btn-warning mt-3">Edit Profile</a>

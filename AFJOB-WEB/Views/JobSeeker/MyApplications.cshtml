@@ -1,0 +1,48 @@
+﻿@model List<AFJOB_WEB.Models.ViewModels.JobSeekerApplicationViewModel>
+
+@{
+    ViewData["Title"] = "My Applications";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    @if (Model.Count == 0)
+    {
+        <div class="alert alert-info">You have not submitted any applications yet.</div>
+    }
+    else
+    {
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th>Job Title</th>
+                    <th>Applied On</th>
+                    <th>Status</th>
+                    <th>Offer Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var app in Model)
+                {
+                    <tr>
+                        <td>@app.JobTitle</td>
+                        <td>@app.ApplicationDate.ToShortDateString()</td>
+                        <td>@app.Status</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(app.OfferDetails))
+                            {
+                                <strong>@app.OfferDetails</strong> <br />
+                                <small class="text-muted">(@app.OfferDate?.ToShortDateString())</small>
+                            }
+                            else
+                            {
+                                <em>No offer yet</em>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
